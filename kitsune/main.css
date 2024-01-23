@@ -1,0 +1,145 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    background-color: black;
+}
+
+header{
+    background: url('img/main.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.but__menu{
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    opacity: 0.75;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.but{
+    border-left: 2px solid #fff;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.quote{
+    font-size: 20px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    padding: 10px 27px 10px 27px;
+    animation-name: text;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    margin-bottom: 5%;
+}
+
+.quote h1{
+    font-weight: 370;
+    text-align: center;
+}
+
+.quote h2{
+    font-weight: 370;
+    text-align: right;
+    font-size: 28px;
+}
+
+@keyframes text{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+
+.spirit{
+    background-color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.spirit__text{
+    padding: 80px;
+}
+
+.spirit__text h1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.spirit__text{
+    margin-bottom: 0px;
+}
+
+.spirit__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px 15px 40px 15px;
+}
+
+.one{
+    margin-right: 20px;
+}
+
+.spirit__img img{
+    border-radius: 15px;
+    width: 40%;
+    height: 80%;
+}
+
+footer{
+    margin-top: 60px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.footer__container{
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container a{
+    text-decoration: none;
+    color: white;
+    margin-right: 9%;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container a:hover{
+    opacity: 0.85;
+}
+
+.empty{
+    height: 2px;
+    background-color: black;
+}
