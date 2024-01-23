@@ -1,0 +1,246 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 16px;
+    background-color: black;
+}
+
+header{
+    background: url('img/back.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.but__menu{
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    border-right: 2px solid #fff;
+    cursor: pointer;
+    padding: 5px 20px 5px 20px;
+    opacity: 0.75;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.but{
+    border-left: 2px solid #fff;
+}
+
+header a{
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+.quote{
+    font-size: 20px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    padding: 10px 27px 10px 27px;
+    animation-name: text;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+    margin-bottom: 5%;
+}
+
+.quote h1{
+    font-weight: 370;
+    text-align: center;
+}
+
+.quote h2{
+    font-weight: 370;
+    text-align: right;
+    font-size: 28px;
+}
+
+@keyframes text{
+    from{opacity: 0}
+    to{opacity: 0.8}
+}
+
+.lets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+    opacity: 0;
+    text-align: center;
+    animation-name: text;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+
+.lets img{
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding-top: 5px;
+}
+
+.lets h1{
+    font-weight: 400;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 5%;
+    margin: 13% 5% 7% 5%;
+    width: 100%;
+    height: 100%;
+}
+.kl a{
+    text-decoration: none;
+    color:black;
+}
+
+.kl h2{
+    font-size: 19px;
+    margin-top: 2px;
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+.kl h1{
+    margin-top: 19px;
+    margin-left: 10px;
+    margin-bottom: 6px;
+    font-size: 30px;
+}
+
+.kl{
+    height: 100%;
+    width: 100%;
+}
+
+.grid__img{
+    height: 80%;
+    width: 100%;
+    border-radius: 30px;
+    transition: transform 0.5s ease-in;
+    transition-delay: 0.2s;
+}
+
+.grid__img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    margin-top: 60px;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.footer__container{
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer__container a{
+    text-decoration: none;
+    color: white;
+    margin-right: 9%;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.akutagawa{
+    padding: 110px 110px 110px 110px;
+    background-color: white;
+}
+
+.akutagawa__img{
+    height: 70vh;
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: url('img/akutagawa.jpeg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 490px 0px 60px 0px #000;
+    position: relative;
+    border-radius: 15px;
+}
+
+.aku h1{
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.aku h2{
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.aku{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
+
+.aku a{
+    background-color: #4f4444;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    font-size: 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.aku a:hover{
+    background-color: rgb(50, 43, 43);
+}
+
+.footer__container a:hover{
+    opacity: 0.85;
+}
+
+.empty{
+    height: 2px;
+    background-color: black;
+}
